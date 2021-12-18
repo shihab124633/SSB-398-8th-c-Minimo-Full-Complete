@@ -1,0 +1,289 @@
+/*common start*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/*common end*/
+
+/*header start*/
+header{
+    padding: 20px 0;
+    /*border-bottom: 1px solid #c4c4c4b0;*/
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    /*border:  1px solid red;*/
+    overflow: hidden;
+}
+.logo{
+    margin-top: 13px;
+    width: 13%;
+    /*border: 1px solid blue;*/
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.manu{
+    width: 60%;
+    /*border: 1px solid blue;*/
+    float: right;
+}
+.manu ul{
+    float: right;
+}
+.manu ul li{
+    list-style: none;
+    float: left;
+}
+.manu ul li a{
+    margin: 0 45px;
+    padding: 2px 3px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform:  uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .15s ;    
+}
+.manu ul li:last-child a{
+    margin-right: 0;
+}
+.manu ul li a:hover {
+    border-bottom: 1px solid #626262;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+
+}
+.container{
+
+}
+.b_img{
+    
+}
+.b_img img{
+   width: 100%;
+}
+/*banner end*/
+
+/*perfect start*/
+.perfect{
+   padding: 80px 0;
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+}
+.p_content{
+
+}
+.c_tag{
+	margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transfrom: uppercase;
+}
+.c_title{
+	margin: 20px 0 25px;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transfrom: uppercase;
+}
+.c_p{
+	margin: 0;
+	line-height: 25px;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transfrom: uppercase;
+}
+.mb_40{
+	margin-bottom: 40px;
+}
+/*perfect end*/
+
+/*blog start*/
+.blog{
+    padding: 80px 0;
+}
+.b_content{
+   overflow: hidden;
+}
+.single{
+   margin-bottom: 60px;
+   width: 47%;
+   /*border: 1px solid red;*/
+   float: left;
+}
+.single:nth-child(even){
+   margin-left: 6%;
+}
+.s_img{
+    margin-bottom: 25px;
+}
+.s_img img{
+    width: 100%;
+}
+.p LIFESTYLE{
+	font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+}
+/*blog end*/
+
+/*newsletter start*/
+.newsletter{
+	padding: 75px 0;
+    background-color: #f0f0f0;
+}
+.singup{
+    margin: 0 auto;
+    text-align: center;
+}
+.h3{
+    margin-top: 0;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+}
+.s_from{
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+}
+.s_from input{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: #666666;
+    width: 345px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #333333;
+    background-color: transparent;
+}
+.s_from input:focus{
+    outline: 0;
+}
+.text{
+    padding: 15px;
+    padding-right: 45px;
+    padding-left: 10px;
+    width: 290px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #333333;
+    fonr-familly: PlayfairDisplay-Regular;
+    font-size: 14px;
+    color: #626262;
+}
+.s_from button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_from input:focus{
+    outline: 0;
+}
+.s_from button img{}
+.singup button:focus{
+    outline: none;
+}
+.singup button img{
+    width: 30%;
+}
+/*newsletter end*/
+
+/*blog2  start*/
+.load{
+    margin: 150px 0;
+    text-align: center;
+}
+.load button{
+    width: 165px;
+    height: 60px;
+    background: transparent;
+    border: 1px solid #626262;
+    cursor: pointer;
+    font-family: 'Playfairi Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    transition: .3s;
+}
+.load button:hover {
+    background-color: #626262;
+    color: white;
+    transition: .5s;
+}
+/*blog2 end*/
+
+/*footer start*/
+footer{
+	padding: 35px 0;
+	background-color: #f0f0f0;
+}
+.trms{
+	width: 25%;
+	float: left;
+}
+.trms ul{
+	padding: 0;
+	overflow: hidden;
+}
+.trms ul li, .follow ul li{
+	list-style: none;
+	float: left;
+}
+.trms ul li a{
+	margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+	display: inline-block;
+	text-decoration: none;
+}
+.tems ul li:first-child a{
+	margin-left: 0;
+}
+.follow{
+	width: 20%;
+	float: right;
+}
+.follow ul{
+	float: right;
+}
+.follow ul li span{
+	margin: 0 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.follow ul li a{
+	margin: 0 15px;
+	display: inline-block;
+	text-decoration: none;
+}
+.follow ul li;list-child a{
+	margin-right: 0;
+}
+/*footer end*/
